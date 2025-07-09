@@ -1,0 +1,38 @@
+{
+  "name": "nodejs-demo-app",
+  "version": "1.0.0",
+  "description": "this is a nodejs demo app",
+  "keywords": [
+    "node",
+    "nodejs",
+    "express",
+    "babel"
+  ],
+  "homepage": "https://github.com/joshvasquezr/nodejs-demo-app#readme",
+  "bugs": {
+    "url": "https://github.com/joshvasquezr/nodejs-demo-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshvasquezr/nodejs-demo-app.git"
+  },
+  "license": "ISC",
+  "author": "Josh Vasquez",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "babel-preset": "^1.1.7",
+    "babel-preset-env": "^0.0.0",
+    "express": "^5.1.0",
+    "jest": "^30.0.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.28.0",
+    "@babel/core": "^7.28.0",
+    "@babel/node": "^7.28.0",
+    "@babel/preset-env": "^7.28.0"
+  }
+}
